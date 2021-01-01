@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix {
+    clear:both;
+}
+html{
+    background-color: darkslategrey;
+}
+body {
+    background-color: rgb(253, 252, 252);
+    width: 1360px;
+    height: 3068px;
+    margin:0 auto;
+}
+/* HEADER */
+.header{
+    position:relative;
+}
+.header .header1{
+    float:left;
+    width: 50%;
+    height: 55px;
+}
+.header .navbar a, .header .navbar a:visited{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 5px;
+    color:#40c1ff;
+}
+.header .navbar a:hover{
+    color:rgb(255, 51, 51);
+}
+.header .navbar a:first-child {
+    margin-left: 130px;
+}
+
+.header .header1 .logo{
+    font-size: 60px;
+    color: #dc4312;
+    font-weight: 400;
+    
+    position:absolute;
+    left: 100px;
+    top: 4px;
+}
+.header .header1 .slogan {
+    font-size: 15px;
+    font-weight: 550;
+    color: #fff;
+    line-height: 0.97;
+    left: 100px;
+    top: 10px;
+    left: 115px;
+    
+    position:absolute;
+    top: 70px;
+}
+/* CAROUSEL */
+.carousel {
+    background-image: url(./images-layout1/banner2.jpg);
+    height: 500px;
+    width: 100%;
+    /* position:relative; */
+}
+.carousel .content {
+    position:relative;
+    right: 0;
+}
+.carousel .content .content1 {
+    position:absolute;
+    text-align: right;
+    right: 100px;
+    top:200px;
+    padding-left: 10px;
+}
+/* background-color */
+.carousel .content .content1 h1{
+    background-color: rgba(255,255,255, 0.3);
+    color: #323232;
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0 -20px 30px 0;
+    letter-spacing: 5px;
+    text-align: left;
+    display: inline-block;
+}
+.carousel .content .content1 p{
+    background-color: rgba(255,255,255, 0.3);
+    color: #323232;
+    font-size: 18px;
+    font-weight: 300;
+    margin:0 -10px 15px 0;
+    display: inline-block;
+    letter-spacing: 5px;
+    text-align: left;
+    
+}
+
+/* INTRO */
+.intro .content h1 {
+    font-size: 35px;
+    font-weight: 300;
+    display: inline-block;
+    background-color: rgba(172, 192, 202, 0.8);
+    margin-bottom: 20px;
+}
+.intro {
+    background-color: #29c0ff;
+    
+}
+.intro .content{
+    padding: 20px 100px 40px 70px;
+
+}
+.intro .content p {
+    text-align: justify;
+    color:#fff;
+}
+
+/* WELCOME */
+.welcome {
+    margin-top: 50px;
+    height: 900px;
+}
+.welcome .welcom-header{
+    margin: 0 250px;
+}
+.welcome .welcom-header h1, .welcome .welcom-header p{
+    text-align: center;
+}
+.welcome .welcom-header p{
+    margin-bottom:10px;
+    color: #9e9e9e;
+}
+.welcome .welcom-header h1{
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+i.fas.fa-chevron-up {
+    color:#29c0ff;
+    font-size: 25px;
+}
+.welcome .content .image1, .welcome .image2 {
+    height: 350px;
+    background-size: cover;
+}
+.welcome .content .image1{
+    background-image: url(./images-layout1/a1.jpg);
+}
+.welcome .content .image2{
+    background-image: url(./images-layout1/a2.jpg);
+}
+.welcome .content .image3 {
+    width: 50%;
+    height: 300px;
+    background-image: url(./images-layout1/a3.jpg);
+    background-size: cover;
+}
+.welcome .content .list {
+    float:left;
+    width:50%;
+}
+.welcome .content .list i {
+    float:left;
+    margin-right: 10px;
+}
+.welcome .content .text{
+    min-height: 100px;
+    padding: 25px 0 0 5px;
+
+}
+.welcome .content .text p {
+    padding-left: 40px;
+    padding-top: 15px;
+    color: #9e9e9e;
+}
+.welcome .content .text .item h1{
+    color: #eb552f;
+    font-weight: 400;
+}
+.welcome .content {
+    margin: 0 70px;
+}
+
+
+/* OUR WORKS */
+.ourwords{
+    margin-top: 70px; 
+}
+.ourwords .content h1{
+    text-align: center;
+    font-weight: 500; 
+    margin-bottom: 10px;
+}
+.ourwords.content .list {
+    width: 100%;
+}
+.ourwords .content .list img{
+    width: 33.3333%;
+    float: left;
+    display: block;
+    padding: 5px;
+}
+.ourwords .content {
+    margin: 0 65px;
+}
+
+/* SUCCEED */
+.succeed {
+    margin-top: 50px;
+}
+.succeed .content .content-h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 50px;
+}
+i.fas.fa-chevron-right {
+    color:#29c0ff;
+    font-size: 20px;
+}
+.succeed .content .list .item1 h1:last-child{
+    margin-top: 40px;
+}
+.succeed .content .list .item1 ul{
+    list-style: none;
+    line-height: 1.5;
+    color:  #9e9e9e;
+}
+.succeed .content .list .item1 h1:last-child {
+    margin-top: 40px;
+}
+.succeed .content .list .item1 ul:last-child li i{
+    margin-right: 10px;
+}
+.succeed .content .list .item1{
+    float:left;
+    width: 54%;
+}
+.succeed .content .list .item2{
+    float:left;
+    width: 46%;
+    background-image: url(./images-layout1/index-serives.jpg);
+    background-size: cover;
+    height: 350px;
+}
+.succeed .content .list .item2 ul{
+    list-style-position: inside;
+    line-height: 3;
+    color:#fff;
+    font-size: 16px;
+    list-style: none;
+    font-weight: 500;
+    padding: 30px 0 50px 60px;
+}
+.succeed .content .list .item2 span {
+    color: #29c0ff;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.succeed .content{
+    margin: 0 70px;
+}
+.item1-h1-1{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.item1-h1-2 {
+    margin: 30px 0 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #242424;
+    height: 250px;
+    margin-top: 60px;
+}
+.footer .list{
+    float: left;
+    width: 25%;
+    padding-top: 50px;
+}
+.footer .list h1{
+    color:#fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer .list p{
+    color: #767e7e;
+    line-height: 2;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+.footer .list ul{
+    list-style: none;
+}
+.footer .list ul li a,.footer .list ul li a:visited {
+   text-decoration: none; 
+   color: #767e7e;
+   line-height: 2;
+}
+.footer .item1{
+    padding-left: 100px;
+}
+.footer .item2 {
+    padding-left: 150px;
+}
+.footer .item3 {
+    padding-left: 30px;
+    
+}
+.footer .item3 p {
+    padding-top: 8px;
+    line-height: 1.2;
+}
+.footer .item4 {
+    padding-left: 40px;
+}
+.footer .item4 span{
+    color: #e44d24;
+}
+.footer .item4 p{
+    font-size: 13px;
+    text-align: justify;
+}
+.footer .item4 h1{
+    font-size: 45px;
+    font-weight: 300;
+    padding-top: 40px;
+}
